@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*header start here*/
+.header{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: rgba(110, 103, 103, 0.445);
+    background-image: url(https://i.ibb.co/58VsT1R/bench-accounting-C3-V88-BOo-Ro-M-unsplash.jpg);
+    background-blend-mode:darken;
+    background-position: top left;
+    background-size: cover;
+    
+}
+
+
+.myBtn{
+    border: 1px solid #fe475c;
+    padding: 0.7rem 0.8rem;
+    background-color: #fe475c;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+.myBtn:hover{
+    color: #fff;
+    text-decoration: none;
+    border: #d82d41;
+    background-color: #d82d41;
+    padding: 0.8rem 1rem;
+}
+.myBtn-2{
+    border-radius: 1.4rem;
+}
+.myBtn-2:hover{
+    border-radius: 1.4rem;
+    border: 1px solid #fff ;
+    background-color: transparent;
+}
+.myBtn-3{
+    border-radius: 1.4rem;
+    border: 1px solid #fff ;
+    background-color: transparent;
+}
+.header-details{
+    padding: 8rem 0;
+}
+.mid{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header-details h1{
+    font-size: 3rem;
+    color: #fff;
+}
+.header-details p{
+    
+    box-sizing: border-box;
+    color: #e8e8e1;
+    padding: 1.1rem 0 ;
+}
+/*featured work*/
+.work{
+    width: 100%;
+}
+.point{
+    width: 55%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    background-color: #fff;
+}
+.point h2{
+    color: #000000;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.point p{
+    padding-top: 1rem;
+    color: #74746e;
+}
+.work img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+/*process*/
+.process{
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 3rem 0;
+    text-align: center;
+    
+}
+.process h2{
+    color: #000000;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 1rem 0.5rem;
+}
+.icon .data-1{
+    width: 15%;
+}
+.data-1 span{
+    font-size: 2rem;
+    color: #fe475c;
+}
+.data-2 h4{
+    font-size: 1.3rem;
+    font-weight: 600;
+    
+}
+.data-2 p{
+    font-size: 0.9rem;
+    color: #74746e;
+}
+.icon .data-2{
+    width: 80%;
+}
+/*Talented section*/
+.talented{
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 2.5rem;
+}
+.talented img{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1.1rem;
+}
+.talented figcaption{
+    padding: 0.5rem 0;
+    color: #000000;
+    font-weight: bolder;
+}
+.talented figure p{
+    font-size: 0.9rem;
+    color: #d82d41;
+}
+/*modern-areaResponsive*/
+.modern-areaResponsive{
+    width: 100%;
+    background-color: #e8e8e1;
+    padding: 3rem 0;
+}
+.modern-areaResponsive h2{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.modern-areaResponsive p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.5rem 0;
+}
+.modern-areaResponsive img{
+    width: 100%;
+    height: 600px ;
+    object-fit: cover;
+}
+.modern-areaResponsive ul li{
+    list-style-type: none;
+    color: #3a3a37;
+    font-size: 1.2rem;
+}
+.modern-areaResponsive ul li i{
+    padding-right: 0.5rem;
+}
+.alignCenter{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* blogs-area*/
+.blogs-area{
+    width: 100%;
+    padding: 3rem 0;
+    background-color: #fff;
+}
+.blogs-area img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.blogs-area figcaption{
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.blogs-area p{
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    color: #3a3a37;
+    padding: 0.4rem 0;
+}
+.blogs-area figure a{
+    color: #d82d41;
+    padding-bottom: 0.3rem;
+    text-decoration: none;
+}
+.blogs-area figure a:hover{
+    border-bottom: 1px solid #d82d41;
+}
+/*footer-section*/
+.footer-section{
+    width: 100%;
+    background-color: #222222;
+    padding: 3rem 0;
+}
+.footer-section .box{
+    width: 70%;
+}
+.footer-section h2{
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+.footer-section p{
+    color: #74746e;
+}
+.footer-section a{
+    color: #f7f7f7;
+    text-decoration: none;
+}
+.footer-section li{
+    font-size: 1.2rem;
+}
+.space-bet{
+    display: flex;
+}
+.space-bet li{
+    margin-left: 1rem;
+}
+.copy-right{
+    background-color: #221f1f;
+    padding: 1rem 0;
+}
+.copy-right p{
+    color: #74746e;
+}
+.copy-right span{
+    color: #bbbbb0;
+    border-bottom: 1px solid #adada4;
+}
+
+/* service section 3rd link*/
+
+.our-service{
+    width: 100%;
+    background-color: #fff;
+    padding: 3rem 0;
+    
+}
+.our-service span{
+    font-size: 2rem;
+    color: #fe475c;
+    padding-bottom: 0.5rem;
+}
+.our-service h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.our-service p{
+    color: #74746e;
+    padding: 0.3rem 0;
+}
+.our-service a{
+    color: #d82d41;
+    text-decoration: none;
+}
+.our-service .boxes{
+    padding: 1.2rem 0.5rem ;
+    border: 1px solid #e9e9e4;
+    margin-bottom: 1.5rem;
+}
+.extra-point{
+    width: 100%;
+}
+.extra-point .color-add{
+    color: #fe475c;
+    display: inline;
+    margin-bottom: 0;
+    border-bottom: 2px solid #fe475c;
+}
+
+/*blog section*/
+
+.blog{
+    width: 100%;
+    padding: 2rem 0;
+}
+.borde{
+    padding: 1.4rem 0;
+    border-bottom: 1px solid rgba(207, 202, 202, 0.726);
+}
+.blog img{
+    padding-left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.blog p{
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    color: #3a3a37;
+    padding: 0.4rem 0;
+}
+.blog h3{
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.blog a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.text-col a{
+    color: #fff;
+}
+.blog a:hover{
+    border-bottom: 1px solid #d82d41;
+}
+.align-con{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+/*contact section*/
+.contact{
+    width: 100%;
+    padding: 2rem 0;
+}
+.sub-btn{
+    border: 1px solid #fe475c;
+    border-radius: 10px;
+    background-color: #fe475c;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.8rem;
+}
+.sub-btn:hover{
+    background-color: #d82d41;
+} 
+
+/*media query start here*/
+
+@media only screen and (max-width:992px){
+    html, body{
+        font-size: 15px;
+    }
+    .work img{
+        width: 70%;
+        height: 200px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .modern-areaResponsive img{
+        width: 80%;
+        height: 500px ;
+    }
+    .blogs-area img{
+        height: 180px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    
+    html, body{
+        font-size: 12px;
+    }
+    .d-non{
+        display: none;
+    }
+
+    .work img{
+        width: 60%;
+        height: 150px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    .talented img{
+        width: 70%;
+        height: 250px;
+    }
+    .modern-areaResponsive img{
+        width: 70%;
+        height: 450px ;
+    }
+    .blogs-area img{
+        height: 160px;
+    }
+    .blog img {
+        width: 100%;
+        height: 200px;
+    }
+
+
+
+}
+@media only screen and (max-width:576px){
+    html, body{
+        font-size: 10px;
+    }
+    .work img{
+        width: 50%;
+        height: 120px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .talented img{
+        width: 60%;
+        height: 180px;
+    }
+    .modern-areaResponsive img{
+        width: 80%;
+        height: 400px ;
+    }
+    .blogs-area img{
+        width: 60%;
+        height: 150px;
+    }
+    .blogs-area figure {
+       padding: 20px 0;
+       border-bottom: 1px solid rgb(224, 224, 224);
+    }
+    .blog img {
+        width: 100%;
+        height: 170px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:360px){
+    html, body{
+        font-size: 8px;
+    }
+    .work img{
+        width: 40%;
+        height: 100px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+    .talented img{
+        width: 60%;
+        height: 150px;
+    }
+    .modern-areaResponsive img{
+        width: 100%;
+        height: 350px ;
+    }
+    .blogs-area img{
+        width: 50%;
+        height: 100px;
+    }
+    .blog img {
+        width: 100%;
+        height: 120px;
+    }
+
+}
